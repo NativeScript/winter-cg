@@ -1,7 +1,10 @@
 {
   "main": "./src/main.ts",
   "dependencies": {
-    "@nativescript/core": "file:../../node_modules/@nativescript/core"
+    "@nativescript/core": "file:../../node_modules/@nativescript/core",
+    "@nativescript/wcg-core": "file:../../dist/packages/wcg-core",
+    "@nativescript/wcg-url": "file:../../dist/packages/wcg-url",
+    "@nativescript/wcg-text-encoding": "file:../../dist/packages/wcg-text-encoding"
   },
   "devDependencies": {
     "@nativescript/android": "~8.6.0",

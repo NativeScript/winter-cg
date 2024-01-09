@@ -1,0 +1,65 @@
+{
+  "name": "wcg-core",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "packages/wcg-core",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "options": {
+        "outputPath": "dist/packages/wcg-core",
+        "tsConfig": "packages/wcg-core/tsconfig.json",
+        "packageJson": "packages/wcg-core/package.json",
+        "main": "packages/wcg-core/index.d.ts",
+        "assets": [
+          "packages/wcg-core/*.md",
+          "packages/wcg-core/index.d.ts",
+          "LICENSE",
+          {
+            "glob": "**/*",
+            "input": "packages/wcg-core/platforms/",
+            "output": "./platforms/"
+          }
+        ],
+        "dependsOn": [
+          {
+            "target": "build.all",
+            "projects": "dependencies"
+          }
+        ]
+      }
+    },
+    "build.all": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["node tools/scripts/build-finish.ts wcg-core"],
+        "parallel": false
+      },
+      "outputs": ["dist/packages/wcg-core"],
+      "dependsOn": [
+        {
+          "target": "build.all",
+          "projects": "dependencies"
+        },
+        {
+          "target": "build",
+          "projects": "self"
+        }
+      ]
+    },
+    "focus": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["nx g @nativescript/plugin-tools:focus-packages wcg-core"],
+        "parallel": false
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["packages/wcg-core/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

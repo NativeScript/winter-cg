@@ -61,6 +61,27 @@ module.exports = {
     // packages
     // build output is always in dist/packages
     '@nativescript': {
+      // @nativescript/wcg-core
+      'wcg-core': {
+        build: {
+          script: 'nx run wcg-core:build.all',
+          description: '@nativescript/wcg-core: Build',
+        },
+      },
+      // @nativescript/wcg-url
+      'wcg-url': {
+        build: {
+          script: 'nx run wcg-url:build.all',
+          description: '@nativescript/wcg-url: Build',
+        },
+      },
+      // @nativescript/wcg-text-encoding
+      'wcg-text-encoding': {
+        build: {
+          script: 'nx run wcg-text-encoding:build.all',
+          description: '@nativescript/wcg-text-encoding: Build',
+        },
+      },
       'build-all': {
         script: 'nx run-many --target=build.all --all',
         description: 'Build all packages',
@@ -71,6 +92,18 @@ module.exports = {
       description: '_____________  Focus (VS Code supported)  _____________',
     },
     focus: {
+      'wcg-core': {
+        script: 'nx run wcg-core:focus',
+        description: 'Focus on @nativescript/wcg-core',
+      },
+      'wcg-url': {
+        script: 'nx run wcg-url:focus',
+        description: 'Focus on @nativescript/wcg-url',
+      },
+      'wcg-text-encoding': {
+        script: 'nx run wcg-text-encoding:focus',
+        description: 'Focus on @nativescript/wcg-text-encoding',
+      },
       reset: {
         script: 'nx g @nativescript/plugin-tools:focus-packages',
         description: 'Reset Focus',
