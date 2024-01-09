@@ -117,6 +117,12 @@ dependencies = [
 [[package]]
 name = "ios"
 version = "0.1.0"
+dependencies = [
+ "ada-url",
+ "base64",
+ "bytes",
+ "encoding_rs",
+]
 
 [[package]]
 name = "itertools"

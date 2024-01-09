@@ -53,6 +53,10 @@ class TextEncoder @JvmOverloads constructor(encoding: String = "utf-8") {
 
     @FastNative
     @JvmStatic
+    private external fun nativeEncodeInto(encoder: Long, value: String): ByteArray
+
+    @FastNative
+    @JvmStatic
     private external fun nativeEncodeBuffer(encoder: Long, value: String): ByteBuffer
 
     @CriticalNative

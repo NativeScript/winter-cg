@@ -17,28 +17,29 @@ pub fn register_native_methods(env: &mut JNIEnv, api_level: i32) {
         "nativeCreate",
         "nativeDestroy",
         "nativeToString",
-        "nativeSetHash",
         "nativeGetHash",
-        "nativeSetHost",
+        "nativeSetHash",
         "nativeGetHost",
-        "nativeSetHostName",
+        "nativeSetHost",
         "nativeGetHostName",
-        "nativeSetHref",
+        "nativeSetHostName",
         "nativeGetHref",
-        "nativeGetOrigin",
-        "nativeSetPassword",
+        "nativeSetHref",
         "nativeGetPassword",
-        "nativeSetPathName",
+        "nativeSetPassword",
+        "nativeGetOrigin",
         "nativeGetPathName",
-        "nativeSetPort",
+        "nativeSetPathName",
         "nativeGetPort",
-        "nativeSetProtocol",
-        "nativeGetProtocol",
-        "nativeSetSearch",
+        "nativeSetPort",
         "nativeGetSearch",
+        "nativeSetSearch",
+        "nativeGetProtocol",
+        "nativeSetProtocol",
+        "nativeGetUserName",
         "nativeSetUserName",
-        "nativeGetUserName"
     ];
+
 
     let url_signatures = if api_level >= crate::ANDROID_O {
         [
@@ -46,7 +47,6 @@ pub fn register_native_methods(env: &mut JNIEnv, api_level: i32) {
             "(Ljava/lang/String;Ljava/lang/String;)J",
             "(J)V",
             "(J)Ljava/lang/String;",
-            "(JLjava/lang/String;)V",
             "(J)Ljava/lang/String;",
             "(JLjava/lang/String;)V",
             "(J)Ljava/lang/String;",
@@ -54,8 +54,10 @@ pub fn register_native_methods(env: &mut JNIEnv, api_level: i32) {
             "(J)Ljava/lang/String;",
             "(JLjava/lang/String;)V",
             "(J)Ljava/lang/String;",
+            "(JLjava/lang/String;)V",
             "(J)Ljava/lang/String;",
             "(JLjava/lang/String;)V",
+            "(J)Ljava/lang/String;",
             "(J)Ljava/lang/String;",
             "(JLjava/lang/String;)V",
             "(J)Ljava/lang/String;",
@@ -72,6 +74,7 @@ pub fn register_native_methods(env: &mut JNIEnv, api_level: i32) {
             "!(Ljava/lang/String;Ljava/lang/String;)Z",
             "!(Ljava/lang/String;Ljava/lang/String;)J",
             "!(J)V",
+            "!(J)Ljava/lang/String;",
             "!(J)Ljava/lang/String;",
             "!(JLjava/lang/String;)V",
             "!(J)Ljava/lang/String;",
@@ -95,7 +98,6 @@ pub fn register_native_methods(env: &mut JNIEnv, api_level: i32) {
             "!(JLjava/lang/String;)V",
         ]
     };
-
 
     let url_methods = if api_level >= crate::ANDROID_O {
         [
@@ -431,16 +433,16 @@ pub extern "system" fn set_password(mut env: JNIEnv, _: JClass, url: jlong, pass
 }
 
 #[no_mangle]
-pub extern "system" fn pathname<'local>(env: JNIEnv<'local>, _: JClass<'local>, url: jlong) -> JString<'local> {
+pub extern "system" fn pathname(env: JNIEnv, _: JObject, url: jlong) -> jstring {
     if url == 0 {
-        return env.new_string("").unwrap();
+        return env.new_string("").unwrap().into_raw();
     }
 
     let url = url as *mut URL;
     let url = unsafe { &mut *url };
     let url = &mut url.0;
 
-    env.new_string(url.pathname()).unwrap()
+    env.new_string(url.pathname()).unwrap().into_raw()
 }
 
 #[no_mangle]

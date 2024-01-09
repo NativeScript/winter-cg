@@ -27,6 +27,7 @@ impl TextEncoder {
         Vec::from(result.0)
     }
 
+
     pub fn encoding(&self) -> &str {
         self.inner.name()
     }
@@ -146,7 +147,6 @@ pub extern "system" fn text_encoder_encode(
         Err(_) => env.new_byte_array(0).unwrap(),
     }.into_raw()
 }
-
 
 #[no_mangle]
 pub extern "system" fn text_encoder_encode_buffer(

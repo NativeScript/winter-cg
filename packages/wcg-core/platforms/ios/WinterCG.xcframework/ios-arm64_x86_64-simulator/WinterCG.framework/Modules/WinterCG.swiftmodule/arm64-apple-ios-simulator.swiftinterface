@@ -1,0 +1,83 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios16.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WinterCG
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+@_exported import WinterCG
+import _Concurrency
+import _StringProcessing
+@objcMembers @objc(NSCWCGURL) public class NSCWCGURL : ObjectiveC.NSObject {
+  @objc public init(value: Swift.String, base: Swift.String? = nil)
+  @objc public var uhash: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var host: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var hostname: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var href: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var origin: Swift.String {
+    @objc get
+  }
+  @objc public var password: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var pathname: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var port: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var uprotocol: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var search: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public var username: Swift.String {
+    @objc get
+    @objc set
+  }
+  @objc public func toString() -> Swift.String
+  @objc deinit
+  @objc public static func canParse(_ value: Swift.String, _ base: Swift.String?) -> Swift.Bool
+}
+@_inheritsConvenienceInitializers @objcMembers @objc(NSCBase64) public class NSCBase64 : ObjectiveC.NSObject {
+  @objc public static func atob(_ value: Swift.String) -> Swift.String
+  @objc public static func btoa(_ value: Swift.String) -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objcMembers @objc(NSCTextDecoder) public class NSCTextDecoder : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public init(encoding: Swift.String)
+  @objc public var encoding: Swift.String {
+    @objc get
+  }
+  @objc public func decode(_ data: [Swift.UInt8]) -> Swift.String
+  @objc public func decodeBuffer(_ buffer: Foundation.Data) -> Swift.String
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objcMembers @objc(NSCTextEncoder) public class NSCTextEncoder : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public init(encoding: Swift.String)
+  @objc public var encoding: Swift.String {
+    @objc get
+  }
+  @objc public func encode(_ text: Swift.String) -> Foundation.NSData
+  @objc deinit
+}

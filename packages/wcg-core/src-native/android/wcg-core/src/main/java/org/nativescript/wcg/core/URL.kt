@@ -97,7 +97,7 @@ class URL @JvmOverloads constructor(value: String, base: String? = null) {
 
   var username: String
     get() {
-      return nativeGetUsername(native)
+      return nativeGetUserName(native)
     }
     set(value) {
       nativeSetUserName(native, value)
@@ -229,7 +229,7 @@ class URL @JvmOverloads constructor(value: String, base: String? = null) {
 
     @FastNative
     @JvmStatic
-    external fun nativeGetUsername(url: Long): String
+    external fun nativeGetUserName(url: Long): String
 
   }
 }

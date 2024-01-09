@@ -1,4 +1,4 @@
-package org.nativescript.wcg.core;
+package org.nativescript.wcg.core
 
 import dalvik.annotation.optimization.FastNative
 

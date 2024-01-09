@@ -1,3 +1,3 @@
-import { WcgTextEncodingCommon } from './common';
+export declare class WCGTextDecoder implements TextDecoder {}
 
-export declare class WcgTextEncoding extends WcgTextEncodingCommon {}
+export declare class WCGTextEncoder implements TextEncoder {}

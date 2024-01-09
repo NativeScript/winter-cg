@@ -1,8 +1,8 @@
 ARCHS_IOS = x86_64-apple-ios aarch64-apple-ios aarch64-apple-ios-sim
 ARCHS_ANDROID = i686-linux-android x86_64-linux-android aarch64-linux-android armv7-linux-androideabi
-LIB = libwcg.dylib
-XCFRAMEWORK = WinterCG.xcframework
-RUST_LIB = wcg
+LIB = libwcgcore.dylib
+XCFRAMEWORK = WCGCore.xcframework
+RUST_LIB = wcgcore
 
 all:GENERATE_HEADERS ios android
 
@@ -15,7 +15,7 @@ android: GENERATE_ANDROID
 android_only: android
 
 .PHONY: ios_only
-ios_only: GENERATE_HEADERS ios
+ios_only: GENERATE_HEADERS ios BUILD_XCFRAMEWORKS
 
 .PHONY: GENERATE_HEADERS
 GENERATE_HEADERS:
@@ -31,6 +31,13 @@ $(XCFRAMEWORK): $(ARCHS_IOS)
 	mkdir target/simulator_fat
 	lipo -create $(wildcard target/x86_64-apple-ios/release/$(LIB)) $(wildcard target/aarch64-apple-ios-sim/release/$(LIB)) -output target/simulator_fat/$(LIB)
 	xcodebuild -create-xcframework -library $(wildcard target/aarch64-apple-ios/release/$(LIB)) -headers crates/libs/ios/include -library target/simulator_fat/$(LIB) -headers crates/libs/ios/include -output target/$@ && ./tools/scripts/copy-rust-ios.sh
+
+
+
+.PHONY: BUILD_XCFRAMEWORKS
+BUILD_XCFRAMEWORKS:
+	./packages/wcg-core/src-native/ios/build-framework.sh
+
 
 .PHONY: $(ARCHS_ANDROID)
 $(ARCHS_ANDROID): %:

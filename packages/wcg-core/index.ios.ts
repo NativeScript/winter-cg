@@ -1,3 +1,7 @@
-import { WcgCoreCommon } from './common';
+export function atob(value: string): string {
+  return NSCBase64.atob(value);
+}
 
-export class WcgCore extends WcgCoreCommon {}
+export function btoa(value: string): string {
+  return NSCBase64.btoa(value);
+}

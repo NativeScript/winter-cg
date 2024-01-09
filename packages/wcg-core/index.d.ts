@@ -1,1 +1,3 @@
-export class WCGURL implements URL {}
+export function atob(value: string): string;
+
+export function btoa(value: string): string;
