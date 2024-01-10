@@ -82,6 +82,13 @@ module.exports = {
           description: '@nativescript/wcg-text-encoding: Build',
         },
       },
+      // @nativescript/wcg-crypto
+      'wcg-crypto': {
+        build: {
+          script: 'nx run wcg-crypto:build.all',
+          description: '@nativescript/wcg-crypto: Build',
+        },
+      },
       'build-all': {
         script: 'nx run-many --target=build.all --all',
         description: 'Build all packages',
@@ -103,6 +110,10 @@ module.exports = {
       'wcg-text-encoding': {
         script: 'nx run wcg-text-encoding:focus',
         description: 'Focus on @nativescript/wcg-text-encoding',
+      },
+      'wcg-crypto': {
+        script: 'nx run wcg-crypto:focus',
+        description: 'Focus on @nativescript/wcg-crypto',
       },
       reset: {
         script: 'nx g @nativescript/plugin-tools:focus-packages',

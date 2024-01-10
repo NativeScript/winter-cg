@@ -6,11 +6,11 @@
 	<dict>
 		<key>Frameworks/libwcgcore.dylib</key>
 		<data>
-		mH8Ze12AGr5R/4GjFUuUNP4fE74=
+		Rx3tlqARoPAUdLAVQSC6L1qYi/c=
 		</data>
 		<key>Headers/WinterCG-Swift.h</key>
 		<data>
-		8Z74P8N1VlRZWDf/FiK4Eot6WQw=
+		EaMXQclkXSovZoWcVaVcW5zydOE=
 		</data>
 		<key>Headers/WinterCG.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/wcg_core.h</key>
 		<data>
-		JNuBNyKesgh+Y+r1fNiHBJxt+i0=
+		8YBwv1JygCi2WhnmdoQbNtT0xM0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/WinterCG.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		C1K2QQTcdF5U1ZlAiYt94ogQoac=
+		QusanQ9ae/tbaH0k3lNNqyQVmVU=
 		</data>
 		<key>Modules/WinterCG.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		fzctBTaW9DA2Lue1Qfr8OfIcVyg=
+		znvE2la1SaYYNNcKz/YJJkpimK0=
 		</data>
 		<key>Modules/WinterCG.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2ZXrQYsYblFx4Pk1l1gVYqsefYo=
+		J8Pga+RngJCd+5F2aW/yCw9OQNQ=
 		</data>
 		<key>Modules/WinterCG.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OHZBW3YcmRv8tYcJIhu0mnlt/c8=
+		KisvDQcatKJapvBpO/6xlMmuuJs=
 		</data>
 		<key>Modules/WinterCG.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,19 +46,19 @@
 		</data>
 		<key>Modules/WinterCG.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OHZBW3YcmRv8tYcJIhu0mnlt/c8=
+		KisvDQcatKJapvBpO/6xlMmuuJs=
 		</data>
 		<key>Modules/WinterCG.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4bxJIwieArqp3j8d2s7I6DyZA4U=
+		TSs6Ml/aCDLgLcQT5vNp1nXQY2I=
 		</data>
 		<key>Modules/WinterCG.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2ZXrQYsYblFx4Pk1l1gVYqsefYo=
+		J8Pga+RngJCd+5F2aW/yCw9OQNQ=
 		</data>
 		<key>Modules/WinterCG.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VZc7ZQcr+NB55e3jgvLki5RsP6w=
+		71IvKnwYPID0QRl9MWoGX/EhwNY=
 		</data>
 		<key>Modules/WinterCG.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>Modules/WinterCG.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VZc7ZQcr+NB55e3jgvLki5RsP6w=
+		71IvKnwYPID0QRl9MWoGX/EhwNY=
 		</data>
 		<key>Modules/WinterCG.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		A327nCp1Sp/CycOpjGjdxVNVHU4=
+		dc5xPMth9I/hF1GcpRoaW1+Huoc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,6 +79,10 @@
 		<key>Source/NSCBase64.swift</key>
 		<data>
 		DHkNgcZIUMt8OLImcPAwcnPnLe4=
+		</data>
+		<key>Source/NSCCrypto.swift</key>
+		<data>
+		BdxSjQr4cW1GC9kB/XU4+pC5F4o=
 		</data>
 		<key>Source/NSCTextDecoder.swift</key>
 		<data>
@@ -99,14 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S5jJMciR+WHptXGKobtxJYAWsp56z8lLm+mxmj32v1c=
+			meONFXQuDhM1HODTdQzvVp99T7g8MmdxR8c7stXlufo=
 			</data>
 		</dict>
 		<key>Headers/WinterCG-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vglVbf6rPGuetjF8tPeC/O2NemEUxJqnSRmmgBy6Iak=
+			XSoQJDxSY0iq/5Zk7vVPwvmtoLMWqKXDVyICpl6BNVM=
 			</data>
 		</dict>
 		<key>Headers/WinterCG.h</key>
@@ -120,35 +124,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s4ZQFrAQ57aNGnVZlkojfabWOtfDbHtmMplLayx/XOM=
+			www/aXXAs9LpeNtBqRu0iU6TxW8TxcrhuNScuaMP7Ug=
 			</data>
 		</dict>
 		<key>Modules/WinterCG.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cOVFlMPU3LsoyKC4Lpgn5qrgfA4fJCG8tOXp24EC358=
+			6iVaFZyg1OkRttvA3L1iCVNX31/gtCKNe7tXvVcSTQw=
 			</data>
 		</dict>
 		<key>Modules/WinterCG.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Isx8QjTvDz0hqLfnHEzj+T0reTRxvSIgT1iqHL6uJOM=
+			tFDLdR8RzHT/ukmWXX0BKlrRMSqR5KGP3O0GR2t3Jyw=
 			</data>
 		</dict>
 		<key>Modules/WinterCG.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZnjJecSgxKQcJeYtTOH/64Ro3TDXVQJfnw258AyftP8=
+			UcQv9WFMzyjXooiEkbwhWzdsY2sLZofzdW82SSUfbcI=
 			</data>
 		</dict>
 		<key>Modules/WinterCG.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HEOuecDXYNPzZlY6p5AIlU1rJJ7BMOkZ8piulyJEn+o=
+			t9GRdSo516Hzo2ivZc+TN9J08/bSjwnfm/BNMNa7FxM=
 			</data>
 		</dict>
 		<key>Modules/WinterCG.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -162,28 +166,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HEOuecDXYNPzZlY6p5AIlU1rJJ7BMOkZ8piulyJEn+o=
+			t9GRdSo516Hzo2ivZc+TN9J08/bSjwnfm/BNMNa7FxM=
 			</data>
 		</dict>
 		<key>Modules/WinterCG.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uDltEhVGOYuyQdx9AJVAxvseBEf88rrcYsRiY44hq64=
+			aSEzE8JHs6BQRLiA5VZCB5RcznSvT0ZX7N3sCFROz2o=
 			</data>
 		</dict>
 		<key>Modules/WinterCG.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZnjJecSgxKQcJeYtTOH/64Ro3TDXVQJfnw258AyftP8=
+			UcQv9WFMzyjXooiEkbwhWzdsY2sLZofzdW82SSUfbcI=
 			</data>
 		</dict>
 		<key>Modules/WinterCG.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7x69scd85dfQVJ3kAqERCnwTXJ2noj6fORfaAuqI0Po=
+			75F4rQ1/kWfA6fmtUZ8UkaXH6h3UsP9v21fJXqQIxJ8=
 			</data>
 		</dict>
 		<key>Modules/WinterCG.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -197,14 +201,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7x69scd85dfQVJ3kAqERCnwTXJ2noj6fORfaAuqI0Po=
+			75F4rQ1/kWfA6fmtUZ8UkaXH6h3UsP9v21fJXqQIxJ8=
 			</data>
 		</dict>
 		<key>Modules/WinterCG.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uXi/0jdW4XygVJOZKkPpUVlX/fqq0ZJrKD1cruO4NZY=
+			eODlbDCYbsLl3j/en0Mmsd4NWn9sf8WQgspCuqxtBZk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -219,6 +223,13 @@
 			<key>hash2</key>
 			<data>
 			6aqOQ5TifDyLgy4yHAiCdInooN+9HzIUlnoLZqjLQ5w=
+			</data>
+		</dict>
+		<key>Source/NSCCrypto.swift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HkP6cl5v4JYOvET7hIsVKDkF4Vx6Ka2sfw0YmaDxZbU=
 			</data>
 		</dict>
 		<key>Source/NSCTextDecoder.swift</key>

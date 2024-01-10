@@ -1,4 +1,5 @@
 - [@nativescript/wcg-core](packages/wcg-core/README.md)
+- [@nativescript/wcg-crypto](packages/wcg-crypto/README.md)
 - [@nativescript/wcg-text-encoding](packages/wcg-text-encoding/README.md)
 - [@nativescript/wcg-url](packages/wcg-url/README.md)
 

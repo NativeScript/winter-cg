@@ -56,6 +56,19 @@ import _StringProcessing
   @objc deinit
   @objc public static func canParse(_ value: Swift.String, _ base: Swift.String?) -> Swift.Bool
 }
+@_inheritsConvenienceInitializers @objcMembers @objc(NSCCrypto) public class NSCCrypto : ObjectiveC.NSObject {
+  @objc public static func getRandomValuesBytes(_ value: Swift.UnsafeMutableRawPointer, _ size: Swift.Int, _ offset: Swift.Int) throws
+  @objc public static func getRandomValuesUShort(_ value: Swift.UnsafeMutableRawPointer, _ size: Swift.Int, _ offset: Swift.Int) throws
+  @objc public static func getRandomValuesUInt(_ value: Swift.UnsafeMutableRawPointer, _ size: Swift.Int, _ offset: Swift.Int) throws
+  @objc public static func getRandomValuesULong(_ value: Swift.UnsafeMutableRawPointer, _ size: Swift.Int, _ offset: Swift.Int) throws
+  @objc public static func getRandomValues(_ value: Swift.UnsafeMutableRawPointer, _ size: Swift.Int, _ offset: Swift.Int) throws
+  @objc public static func getRandomValuesShort(_ value: Swift.UnsafeMutableRawPointer, _ size: Swift.Int, _ offset: Swift.Int) throws
+  @objc public static func getRandomValuesInt(_ value: Swift.UnsafeMutableRawPointer, _ size: Swift.Int, _ offset: Swift.Int) throws
+  @objc public static func getRandomValuesLong(_ value: Swift.UnsafeMutableRawPointer, _ size: Swift.Int, _ offset: Swift.Int) throws
+  @objc public static func randomUUID() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objcMembers @objc(NSCBase64) public class NSCBase64 : ObjectiveC.NSObject {
   @objc public static func atob(_ value: Swift.String) -> Swift.String
   @objc public static func btoa(_ value: Swift.String) -> Swift.String

@@ -7,7 +7,8 @@
     "@nativescript/core": "file:../../node_modules/@nativescript/core",
     "@nativescript/wcg-core": "file:../../packages/wcg-core",
     "@nativescript/wcg-url": "file:../../packages/wcg-url",
-    "@nativescript/wcg-text-encoding": "file:../../packages/wcg-text-encoding"
+    "@nativescript/wcg-text-encoding": "file:../../packages/wcg-text-encoding",
+    "@nativescript/wcg-crypto": "file:../../packages/wcg-crypto"
   },
   "devDependencies": {
     "@nativescript/android": "~8.6.0",

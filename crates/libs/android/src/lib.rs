@@ -11,6 +11,7 @@ pub mod url;
 pub mod text_decoder;
 pub mod text_encoder;
 mod buffer;
+mod crypto;
 
 const ANDROID_O: i32 = 26;
 
@@ -72,6 +73,7 @@ pub extern "system" fn JNI_OnLoad(vm: JavaVM, _reserved: *const c_void) -> jint 
             url::register_native_methods(&mut env, ret);
             text_encoder::register_native_methods(&mut env, ret);
             text_decoder::register_native_methods(&mut env, ret);
+            crypto::register_native_methods(&mut env, ret);
 
             ret
         });

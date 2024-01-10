@@ -11,6 +11,7 @@
 		F1DD3FF72B4D9EA9006480AA /* NSCTextDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD3FF62B4D9EA9006480AA /* NSCTextDecoder.swift */; };
 		F1DD3FF92B4D9EBB006480AA /* NSCBase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD3FF82B4D9EBB006480AA /* NSCBase64.swift */; };
 		F1DD40032B4DACD5006480AA /* wcg_core.h in Headers */ = {isa = PBXBuildFile; fileRef = F1DD40022B4DACD5006480AA /* wcg_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1DD40092B4E2D65006480AA /* NSCCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD40082B4E2D65006480AA /* NSCCrypto.swift */; };
 		F1E3C9542B4D88B7003251E2 /* WinterCG.docc in Sources */ = {isa = PBXBuildFile; fileRef = F1E3C9532B4D88B7003251E2 /* WinterCG.docc */; };
 		F1E3C95A2B4D88B7003251E2 /* WinterCG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E3C94F2B4D88B7003251E2 /* WinterCG.framework */; };
 		F1E3C95F2B4D88B7003251E2 /* WinterCGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E3C95E2B4D88B7003251E2 /* WinterCGTests.swift */; };
@@ -50,6 +51,7 @@
 		F1DD3FF62B4D9EA9006480AA /* NSCTextDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NSCTextDecoder.swift; path = WinterCG/Source/NSCTextDecoder.swift; sourceTree = "<group>"; };
 		F1DD3FF82B4D9EBB006480AA /* NSCBase64.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NSCBase64.swift; path = WinterCG/Source/NSCBase64.swift; sourceTree = "<group>"; };
 		F1DD40022B4DACD5006480AA /* wcg_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wcg_core.h; path = WinterCG/include/wcg_core.h; sourceTree = "<group>"; };
+		F1DD40082B4E2D65006480AA /* NSCCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NSCCrypto.swift; path = WinterCG/Source/NSCCrypto.swift; sourceTree = "<group>"; };
 		F1E3C94F2B4D88B7003251E2 /* WinterCG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WinterCG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E3C9522B4D88B7003251E2 /* WinterCG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WinterCG.h; sourceTree = "<group>"; };
 		F1E3C9532B4D88B7003251E2 /* WinterCG.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WinterCG.docc; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		F1E3C9452B4D88B6003251E2 = {
 			isa = PBXGroup;
 			children = (
+				F1DD40082B4E2D65006480AA /* NSCCrypto.swift */,
 				F1DD40022B4DACD5006480AA /* wcg_core.h */,
 				F1DD3FF82B4D9EBB006480AA /* NSCBase64.swift */,
 				F1DD3FF62B4D9EA9006480AA /* NSCTextDecoder.swift */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1E3C97A2B4D96EA003251E2 /* URL.swift in Sources */,
+				F1DD40092B4E2D65006480AA /* NSCCrypto.swift in Sources */,
 				F1E3C9542B4D88B7003251E2 /* WinterCG.docc in Sources */,
 				F1DD3FF92B4D9EBB006480AA /* NSCBase64.swift in Sources */,
 				F1DD3FF72B4D9EA9006480AA /* NSCTextDecoder.swift in Sources */,

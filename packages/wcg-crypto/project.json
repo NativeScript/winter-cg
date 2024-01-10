@@ -1,0 +1,65 @@
+{
+  "name": "wcg-crypto",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "packages/wcg-crypto",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "options": {
+        "outputPath": "dist/packages/wcg-crypto",
+        "tsConfig": "packages/wcg-crypto/tsconfig.json",
+        "packageJson": "packages/wcg-crypto/package.json",
+        "main": "packages/wcg-crypto/index.d.ts",
+        "assets": [
+          "packages/wcg-crypto/*.md",
+          "packages/wcg-crypto/index.d.ts",
+          "LICENSE",
+          {
+            "glob": "**/*",
+            "input": "packages/wcg-crypto/platforms/",
+            "output": "./platforms/"
+          }
+        ],
+        "dependsOn": [
+          {
+            "target": "build.all",
+            "projects": "dependencies"
+          }
+        ]
+      }
+    },
+    "build.all": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["node tools/scripts/build-finish.ts wcg-crypto"],
+        "parallel": false
+      },
+      "outputs": ["dist/packages/wcg-crypto"],
+      "dependsOn": [
+        {
+          "target": "build.all",
+          "projects": "dependencies"
+        },
+        {
+          "target": "build",
+          "projects": "self"
+        }
+      ]
+    },
+    "focus": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["nx g @nativescript/plugin-tools:focus-packages wcg-crypto"],
+        "parallel": false
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["packages/wcg-crypto/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

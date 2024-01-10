@@ -291,6 +291,21 @@ SWIFT_CLASS_NAMED("NSCBase64")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS_NAMED("NSCCrypto")
+@interface NSCCrypto : NSObject
++ (BOOL)getRandomValuesBytes:(void * _Nonnull)value :(NSInteger)size :(NSInteger)offset error:(NSError * _Nullable * _Nullable)error;
++ (BOOL)getRandomValuesUShort:(void * _Nonnull)value :(NSInteger)size :(NSInteger)offset error:(NSError * _Nullable * _Nullable)error;
++ (BOOL)getRandomValuesUInt:(void * _Nonnull)value :(NSInteger)size :(NSInteger)offset error:(NSError * _Nullable * _Nullable)error;
++ (BOOL)getRandomValuesULong:(void * _Nonnull)value :(NSInteger)size :(NSInteger)offset error:(NSError * _Nullable * _Nullable)error;
++ (BOOL)getRandomValues:(void * _Nonnull)value :(NSInteger)size :(NSInteger)offset error:(NSError * _Nullable * _Nullable)error;
++ (BOOL)getRandomValuesShort:(void * _Nonnull)value :(NSInteger)size :(NSInteger)offset error:(NSError * _Nullable * _Nullable)error;
++ (BOOL)getRandomValuesInt:(void * _Nonnull)value :(NSInteger)size :(NSInteger)offset error:(NSError * _Nullable * _Nullable)error;
++ (BOOL)getRandomValuesLong:(void * _Nonnull)value :(NSInteger)size :(NSInteger)offset error:(NSError * _Nullable * _Nullable)error;
++ (NSString * _Nonnull)randomUUID SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSData;
 
 SWIFT_CLASS_NAMED("NSCTextDecoder")

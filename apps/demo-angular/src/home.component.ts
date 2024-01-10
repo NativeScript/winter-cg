@@ -10,6 +10,9 @@ export class HomeComponent {
       name: 'wcg-core',
     },
     {
+      name: 'wcg-crypto',
+    },
+    {
       name: 'wcg-text-encoding',
     },
     {

@@ -9,6 +9,7 @@
 <Button text="wcg-core" tap="{{ viewDemo }}" class="btn btn-primary view-demo"/>
 <Button text="wcg-url" tap="{{ viewDemo }}" class="btn btn-primary view-demo"/>
 <Button text="wcg-text-encoding" tap="{{ viewDemo }}" class="btn btn-primary view-demo"/>
+<Button text="wcg-crypto" tap="{{ viewDemo }}" class="btn btn-primary view-demo"/>
       </StackLayout>
     </ScrollView>
   </StackLayout>

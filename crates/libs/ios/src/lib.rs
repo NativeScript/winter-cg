@@ -10,6 +10,7 @@ pub mod ccow;
 pub mod text_decoder;
 pub mod text_encoder;
 pub mod buffers;
+mod crypto;
 
 
 #[no_mangle]

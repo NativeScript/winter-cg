@@ -8,6 +8,30 @@ declare class NSCBase64 extends NSObject {
   static new(): NSCBase64; // inherited from NSObject
 }
 
+declare class NSCCrypto extends NSObject {
+  static alloc(): NSCCrypto; // inherited from NSObject
+
+  static getRandomValuesBytesError(value: interop.Pointer | interop.Reference<any>, size: number, offset: number): boolean;
+
+  static getRandomValuesError(value: interop.Pointer | interop.Reference<any>, size: number, offset: number): boolean;
+
+  static getRandomValuesIntError(value: interop.Pointer | interop.Reference<any>, size: number, offset: number): boolean;
+
+  static getRandomValuesLongError(value: interop.Pointer | interop.Reference<any>, size: number, offset: number): boolean;
+
+  static getRandomValuesShortError(value: interop.Pointer | interop.Reference<any>, size: number, offset: number): boolean;
+
+  static getRandomValuesUIntError(value: interop.Pointer | interop.Reference<any>, size: number, offset: number): boolean;
+
+  static getRandomValuesULongError(value: interop.Pointer | interop.Reference<any>, size: number, offset: number): boolean;
+
+  static getRandomValuesUShortError(value: interop.Pointer | interop.Reference<any>, size: number, offset: number): boolean;
+
+  static new(): NSCCrypto; // inherited from NSObject
+
+  static randomUUID(): string;
+}
+
 declare class NSCTextDecoder extends NSObject {
   static alloc(): NSCTextDecoder; // inherited from NSObject
 
@@ -87,6 +111,10 @@ declare function wcg_core_ccow_destroy(cow: interop.Pointer | interop.Reference<
 declare function wcg_core_ccow_get_bytes(cow: interop.Pointer | interop.Reference<any>): string;
 
 declare function wcg_core_ccow_get_length(cow: interop.Pointer | interop.Reference<any>): number;
+
+declare function wcg_core_crypto_get_random_values(bytes: string | interop.Pointer | interop.Reference<any>, length: number): void;
+
+declare function wcg_core_crypto_random_uuid(): string;
 
 declare function wcg_core_f32_buffer_destroy(buffer: interop.Pointer | interop.Reference<any>): void;
 

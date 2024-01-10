@@ -162,4 +162,8 @@ char *wcg_core_string_buffer_get_value_at(const struct StringBuffer *buffer, uin
 
 void wcg_core_string_buffer_destroy(struct StringBuffer *buffer);
 
+const char *wcg_core_crypto_random_uuid(void);
+
+void wcg_core_crypto_get_random_values(uint8_t *bytes, uintptr_t length);
+
 #endif /* CBINDGEN_BINDINGS_H */
