@@ -1,4 +1,6 @@
 #! /bin/bash
+set -e
+
 LIB_NAME="wcgcore"
 FRAMEWORK="WCGCore"
 

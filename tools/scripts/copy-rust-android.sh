@@ -1,4 +1,6 @@
 #! /bin/bash
+set -e
+
 COPY_DIR="packages/wcg-core/src-native/android/wcg-core/src/main/jniLibs"
 NAME="wcgcore"
 LIB_NAME="lib$NAME"
