@@ -1,0 +1,11 @@
+framework module WinterCG {
+  umbrella header "WinterCG.h"
+
+  export *
+  module * { export * }
+}
+
+module WinterCG.Swift {
+  header "WinterCG-Swift.h"
+  requires objc
+}

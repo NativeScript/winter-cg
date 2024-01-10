@@ -20,7 +20,11 @@
       }
     ],
     "paths": {
-      "@demo/shared": ["tools/demo/index.ts"]
+      "@demo/shared": ["tools/demo/index.ts"],
+      "@nativescript/wcg-core": ["packages/wcg-core/index.d.ts"],
+      "@nativescript/wcg-url": ["packages/wcg-url/index.d.ts"],
+      "@nativescript/wcg-text-encoding": ["packages/wcg-text-encoding/index.d.ts"],
+      "@nativescript/wcg-crypto": ["packages/wcg-crypto/index.d.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

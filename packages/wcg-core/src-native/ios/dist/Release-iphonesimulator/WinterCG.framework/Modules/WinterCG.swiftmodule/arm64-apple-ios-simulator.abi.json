@@ -1,0 +1,2379 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WinterCG",
+        "declAttributes": ["RawDocComment"]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSCWCGURL",
+        "printedName": "NSCWCGURL",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(value:base:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSCWCGURL",
+                "printedName": "WinterCG.NSCWCGURL",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)initWithValue:base:",
+            "mangledName": "$s8WinterCG9NSCWCGURLC5value4baseACSS_SSSgtcfc",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "uhash",
+            "printedName": "uhash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(py)uhash",
+            "mangledName": "$s8WinterCG9NSCWCGURLC5uhashSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)uhash",
+                "mangledName": "$s8WinterCG9NSCWCGURLC5uhashSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)setUhash:",
+                "mangledName": "$s8WinterCG9NSCWCGURLC5uhashSSvs",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WinterCG9NSCWCGURLC5uhashSSvM",
+                "mangledName": "$s8WinterCG9NSCWCGURLC5uhashSSvM",
+                "moduleName": "WinterCG",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "host",
+            "printedName": "host",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(py)host",
+            "mangledName": "$s8WinterCG9NSCWCGURLC4hostSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)host",
+                "mangledName": "$s8WinterCG9NSCWCGURLC4hostSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)setHost:",
+                "mangledName": "$s8WinterCG9NSCWCGURLC4hostSSvs",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WinterCG9NSCWCGURLC4hostSSvM",
+                "mangledName": "$s8WinterCG9NSCWCGURLC4hostSSvM",
+                "moduleName": "WinterCG",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hostname",
+            "printedName": "hostname",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(py)hostname",
+            "mangledName": "$s8WinterCG9NSCWCGURLC8hostnameSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)hostname",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8hostnameSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)setHostname:",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8hostnameSSvs",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WinterCG9NSCWCGURLC8hostnameSSvM",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8hostnameSSvM",
+                "moduleName": "WinterCG",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "href",
+            "printedName": "href",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(py)href",
+            "mangledName": "$s8WinterCG9NSCWCGURLC4hrefSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)href",
+                "mangledName": "$s8WinterCG9NSCWCGURLC4hrefSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)setHref:",
+                "mangledName": "$s8WinterCG9NSCWCGURLC4hrefSSvs",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WinterCG9NSCWCGURLC4hrefSSvM",
+                "mangledName": "$s8WinterCG9NSCWCGURLC4hrefSSvM",
+                "moduleName": "WinterCG",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "origin",
+            "printedName": "origin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(py)origin",
+            "mangledName": "$s8WinterCG9NSCWCGURLC6originSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)origin",
+                "mangledName": "$s8WinterCG9NSCWCGURLC6originSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "password",
+            "printedName": "password",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(py)password",
+            "mangledName": "$s8WinterCG9NSCWCGURLC8passwordSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)password",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8passwordSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)setPassword:",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8passwordSSvs",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WinterCG9NSCWCGURLC8passwordSSvM",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8passwordSSvM",
+                "moduleName": "WinterCG",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pathname",
+            "printedName": "pathname",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(py)pathname",
+            "mangledName": "$s8WinterCG9NSCWCGURLC8pathnameSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)pathname",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8pathnameSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)setPathname:",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8pathnameSSvs",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WinterCG9NSCWCGURLC8pathnameSSvM",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8pathnameSSvM",
+                "moduleName": "WinterCG",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "port",
+            "printedName": "port",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(py)port",
+            "mangledName": "$s8WinterCG9NSCWCGURLC4portSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)port",
+                "mangledName": "$s8WinterCG9NSCWCGURLC4portSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)setPort:",
+                "mangledName": "$s8WinterCG9NSCWCGURLC4portSSvs",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WinterCG9NSCWCGURLC4portSSvM",
+                "mangledName": "$s8WinterCG9NSCWCGURLC4portSSvM",
+                "moduleName": "WinterCG",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uprotocol",
+            "printedName": "uprotocol",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(py)uprotocol",
+            "mangledName": "$s8WinterCG9NSCWCGURLC9uprotocolSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "RawDocComment", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)uprotocol",
+                "mangledName": "$s8WinterCG9NSCWCGURLC9uprotocolSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)setUprotocol:",
+                "mangledName": "$s8WinterCG9NSCWCGURLC9uprotocolSSvs",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WinterCG9NSCWCGURLC9uprotocolSSvM",
+                "mangledName": "$s8WinterCG9NSCWCGURLC9uprotocolSSvM",
+                "moduleName": "WinterCG",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "search",
+            "printedName": "search",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(py)search",
+            "mangledName": "$s8WinterCG9NSCWCGURLC6searchSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)search",
+                "mangledName": "$s8WinterCG9NSCWCGURLC6searchSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)setSearch:",
+                "mangledName": "$s8WinterCG9NSCWCGURLC6searchSSvs",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WinterCG9NSCWCGURLC6searchSSvM",
+                "mangledName": "$s8WinterCG9NSCWCGURLC6searchSSvM",
+                "moduleName": "WinterCG",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "username",
+            "printedName": "username",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(py)username",
+            "mangledName": "$s8WinterCG9NSCWCGURLC8usernameSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)username",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8usernameSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)setUsername:",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8usernameSSvs",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WinterCG9NSCWCGURLC8usernameSSvM",
+                "mangledName": "$s8WinterCG9NSCWCGURLC8usernameSSvM",
+                "moduleName": "WinterCG",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "toString",
+            "printedName": "toString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)toString",
+            "mangledName": "$s8WinterCG9NSCWCGURLC8toStringSSyF",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canParse",
+            "printedName": "canParse(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(cm)canParse::",
+            "mangledName": "$s8WinterCG9NSCWCGURLC8canParseySbSS_SSSgtFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSCWCGURL",
+                "printedName": "WinterCG.NSCWCGURL",
+                "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL(im)init",
+            "mangledName": "$s8WinterCG9NSCWCGURLCACycfc",
+            "moduleName": "WinterCG",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": ["Dynamic", "ObjC", "Override"],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WinterCG@objc(cs)NSCWCGURL",
+        "mangledName": "$s8WinterCG9NSCWCGURLC",
+        "moduleName": "WinterCG",
+        "objc_name": "NSCWCGURL",
+        "declAttributes": ["AccessControl", "ObjC", "ObjCMembers"],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": ["ObjectiveC.NSObject"],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WinterCG",
+        "declAttributes": ["RawDocComment"]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSCCrypto",
+        "printedName": "NSCCrypto",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getRandomValuesBytes",
+            "printedName": "getRandomValuesBytes(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCCrypto(cm)getRandomValuesBytes:::error:",
+            "mangledName": "$s8WinterCG9NSCCryptoC20getRandomValuesBytesyySv_S2itKFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandomValuesUShort",
+            "printedName": "getRandomValuesUShort(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCCrypto(cm)getRandomValuesUShort:::error:",
+            "mangledName": "$s8WinterCG9NSCCryptoC21getRandomValuesUShortyySv_S2itKFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandomValuesUInt",
+            "printedName": "getRandomValuesUInt(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCCrypto(cm)getRandomValuesUInt:::error:",
+            "mangledName": "$s8WinterCG9NSCCryptoC19getRandomValuesUIntyySv_S2itKFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandomValuesULong",
+            "printedName": "getRandomValuesULong(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCCrypto(cm)getRandomValuesULong:::error:",
+            "mangledName": "$s8WinterCG9NSCCryptoC20getRandomValuesULongyySv_S2itKFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandomValues",
+            "printedName": "getRandomValues(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCCrypto(cm)getRandomValues:::error:",
+            "mangledName": "$s8WinterCG9NSCCryptoC15getRandomValuesyySv_S2itKFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandomValuesShort",
+            "printedName": "getRandomValuesShort(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCCrypto(cm)getRandomValuesShort:::error:",
+            "mangledName": "$s8WinterCG9NSCCryptoC20getRandomValuesShortyySv_S2itKFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandomValuesInt",
+            "printedName": "getRandomValuesInt(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCCrypto(cm)getRandomValuesInt:::error:",
+            "mangledName": "$s8WinterCG9NSCCryptoC18getRandomValuesIntyySv_S2itKFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandomValuesLong",
+            "printedName": "getRandomValuesLong(_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafeMutableRawPointer",
+                "printedName": "Swift.UnsafeMutableRawPointer",
+                "usr": "s:Sv"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCCrypto(cm)getRandomValuesLong:::error:",
+            "mangledName": "$s8WinterCG9NSCCryptoC19getRandomValuesLongyySv_S2itKFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "randomUUID",
+            "printedName": "randomUUID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCCrypto(cm)randomUUID",
+            "mangledName": "$s8WinterCG9NSCCryptoC10randomUUIDSSyFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSCCrypto",
+                "printedName": "WinterCG.NSCCrypto",
+                "usr": "c:@M@WinterCG@objc(cs)NSCCrypto"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WinterCG@objc(cs)NSCCrypto(im)init",
+            "mangledName": "$s8WinterCG9NSCCryptoCACycfc",
+            "moduleName": "WinterCG",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": ["Dynamic", "ObjC", "Override"],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WinterCG@objc(cs)NSCCrypto",
+        "mangledName": "$s8WinterCG9NSCCryptoC",
+        "moduleName": "WinterCG",
+        "objc_name": "NSCCrypto",
+        "declAttributes": ["AccessControl", "ObjC", "ObjCMembers"],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": ["ObjectiveC.NSObject"],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WinterCG",
+        "declAttributes": ["RawDocComment"]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSCBase64",
+        "printedName": "NSCBase64",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "atob",
+            "printedName": "atob(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCBase64(cm)atob:",
+            "mangledName": "$s8WinterCG9NSCBase64C4atobyS2SFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "btoa",
+            "printedName": "btoa(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCBase64(cm)btoa:",
+            "mangledName": "$s8WinterCG9NSCBase64C4btoayS2SFZ",
+            "moduleName": "WinterCG",
+            "static": true,
+            "declAttributes": ["Final", "AccessControl", "ObjC"],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSCBase64",
+                "printedName": "WinterCG.NSCBase64",
+                "usr": "c:@M@WinterCG@objc(cs)NSCBase64"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WinterCG@objc(cs)NSCBase64(im)init",
+            "mangledName": "$s8WinterCG9NSCBase64CACycfc",
+            "moduleName": "WinterCG",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": ["Dynamic", "ObjC", "Override"],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WinterCG@objc(cs)NSCBase64",
+        "mangledName": "$s8WinterCG9NSCBase64C",
+        "moduleName": "WinterCG",
+        "objc_name": "NSCBase64",
+        "declAttributes": ["AccessControl", "ObjC", "ObjCMembers"],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": ["ObjectiveC.NSObject"],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WinterCG",
+        "declAttributes": ["RawDocComment"]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSCTextDecoder",
+        "printedName": "NSCTextDecoder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSCTextDecoder",
+                "printedName": "WinterCG.NSCTextDecoder",
+                "usr": "c:@M@WinterCG@objc(cs)NSCTextDecoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WinterCG@objc(cs)NSCTextDecoder(im)init",
+            "mangledName": "$s8WinterCG14NSCTextDecoderCACycfc",
+            "moduleName": "WinterCG",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": ["Dynamic", "ObjC", "Override", "AccessControl"],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(encoding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSCTextDecoder",
+                "printedName": "WinterCG.NSCTextDecoder",
+                "usr": "c:@M@WinterCG@objc(cs)NSCTextDecoder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WinterCG@objc(cs)NSCTextDecoder(im)initWithEncoding:",
+            "mangledName": "$s8WinterCG14NSCTextDecoderC8encodingACSS_tcfc",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "encoding",
+            "printedName": "encoding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCTextDecoder(py)encoding",
+            "mangledName": "$s8WinterCG14NSCTextDecoderC8encodingSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCTextDecoder(im)encoding",
+                "mangledName": "$s8WinterCG14NSCTextDecoderC8encodingSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "decode",
+            "printedName": "decode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCTextDecoder(im)decode:",
+            "mangledName": "$s8WinterCG14NSCTextDecoderC6decodeySSSays5UInt8VGF",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decodeBuffer",
+            "printedName": "decodeBuffer(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCTextDecoder(im)decodeBuffer:",
+            "mangledName": "$s8WinterCG14NSCTextDecoderC12decodeBufferySS10Foundation4DataVF",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WinterCG@objc(cs)NSCTextDecoder",
+        "mangledName": "$s8WinterCG14NSCTextDecoderC",
+        "moduleName": "WinterCG",
+        "objc_name": "NSCTextDecoder",
+        "declAttributes": ["AccessControl", "ObjC", "ObjCMembers"],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": ["ObjectiveC.NSObject"],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WinterCG",
+        "declAttributes": ["RawDocComment"]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NSCTextEncoder",
+        "printedName": "NSCTextEncoder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSCTextEncoder",
+                "printedName": "WinterCG.NSCTextEncoder",
+                "usr": "c:@M@WinterCG@objc(cs)NSCTextEncoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WinterCG@objc(cs)NSCTextEncoder(im)init",
+            "mangledName": "$s8WinterCG14NSCTextEncoderCACycfc",
+            "moduleName": "WinterCG",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": ["Dynamic", "ObjC", "Override", "AccessControl"],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(encoding:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSCTextEncoder",
+                "printedName": "WinterCG.NSCTextEncoder",
+                "usr": "c:@M@WinterCG@objc(cs)NSCTextEncoder"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@WinterCG@objc(cs)NSCTextEncoder(im)initWithEncoding:",
+            "mangledName": "$s8WinterCG14NSCTextEncoderC8encodingACSS_tcfc",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "encoding",
+            "printedName": "encoding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@WinterCG@objc(cs)NSCTextEncoder(py)encoding",
+            "mangledName": "$s8WinterCG14NSCTextEncoderC8encodingSSvp",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@WinterCG@objc(cs)NSCTextEncoder(im)encoding",
+                "mangledName": "$s8WinterCG14NSCTextEncoderC8encodingSSvg",
+                "moduleName": "WinterCG",
+                "declAttributes": ["ObjC"],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSData",
+                "printedName": "Foundation.NSData",
+                "usr": "c:objc(cs)NSData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@WinterCG@objc(cs)NSCTextEncoder(im)encode:",
+            "mangledName": "$s8WinterCG14NSCTextEncoderC6encodeySo6NSDataCSSF",
+            "moduleName": "WinterCG",
+            "declAttributes": ["AccessControl", "ObjC"],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@WinterCG@objc(cs)NSCTextEncoder",
+        "mangledName": "$s8WinterCG14NSCTextEncoderC",
+        "moduleName": "WinterCG",
+        "objc_name": "NSCTextEncoder",
+        "declAttributes": ["AccessControl", "ObjC", "ObjCMembers"],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": ["ObjectiveC.NSObject"],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 1155,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 1655,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 2152,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 2642,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 3041,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 3544,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 4040,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 4574,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 5067,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 5563,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 6058,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/URL.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
+      "length": 9,
+      "value": "\"WinterCG.NSCWCGURL\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 373,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 113,
+      "value": "\"The ArrayBufferView's byte length \""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 7,
+      "value": "\" exceeds the number of bytes of entropy available via this API (65536)\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 838,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 859,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 910,
+      "length": 113,
+      "value": "\"The ArrayBufferView's byte length \""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 952,
+      "length": 7,
+      "value": "\" exceeds the number of bytes of entropy available via this API (65536)\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1323,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1344,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 1395,
+      "length": 113,
+      "value": "\"The ArrayBufferView's byte length \""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 1437,
+      "length": 7,
+      "value": "\" exceeds the number of bytes of entropy available via this API (65536)\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1809,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1830,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 1881,
+      "length": 113,
+      "value": "\"The ArrayBufferView's byte length \""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 1923,
+      "length": 7,
+      "value": "\" exceeds the number of bytes of entropy available via this API (65536)\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2294,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 2345,
+      "length": 113,
+      "value": "\"The ArrayBufferView's byte length \""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 2387,
+      "length": 7,
+      "value": "\" exceeds the number of bytes of entropy available via this API (65536)\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2757,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2778,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 2829,
+      "length": 113,
+      "value": "\"The ArrayBufferView's byte length \""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 2871,
+      "length": 7,
+      "value": "\" exceeds the number of bytes of entropy available via this API (65536)\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3240,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3261,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 3312,
+      "length": 113,
+      "value": "\"The ArrayBufferView's byte length \""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 3354,
+      "length": 7,
+      "value": "\" exceeds the number of bytes of entropy available via this API (65536)\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3724,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3745,
+      "length": 5,
+      "value": "65536"
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 3796,
+      "length": 113,
+      "value": "\"The ArrayBufferView's byte length \""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 3838,
+      "length": 7,
+      "value": "\" exceeds the number of bytes of entropy available via this API (65536)\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCCrypto.swift",
+      "kind": "StringLiteral",
+      "offset": 4214,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCBase64.swift",
+      "kind": "StringLiteral",
+      "offset": 339,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCBase64.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCTextDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 638,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCTextDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 1061,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCTextDecoder.swift",
+      "kind": "StringLiteral",
+      "offset": 1485,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "/Users/triniwiz/Documents/GitHub/winter-cg/packages/wcg-core/src-native/ios/WinterCG/Source/NSCTextEncoder.swift",
+      "kind": "StringLiteral",
+      "offset": 631,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

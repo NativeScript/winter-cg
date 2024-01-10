@@ -1,0 +1,65 @@
+{
+  "name": "wcg-text-encoding",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "packages/wcg-text-encoding",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "options": {
+        "outputPath": "dist/packages/wcg-text-encoding",
+        "tsConfig": "packages/wcg-text-encoding/tsconfig.json",
+        "packageJson": "packages/wcg-text-encoding/package.json",
+        "main": "packages/wcg-text-encoding/index.d.ts",
+        "assets": [
+          "packages/wcg-text-encoding/*.md",
+          "packages/wcg-text-encoding/index.d.ts",
+          "LICENSE",
+          {
+            "glob": "**/*",
+            "input": "packages/wcg-text-encoding/platforms/",
+            "output": "./platforms/"
+          }
+        ],
+        "dependsOn": [
+          {
+            "target": "build.all",
+            "projects": "dependencies"
+          }
+        ]
+      }
+    },
+    "build.all": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["node tools/scripts/build-finish.ts wcg-text-encoding"],
+        "parallel": false
+      },
+      "outputs": ["dist/packages/wcg-text-encoding"],
+      "dependsOn": [
+        {
+          "target": "build.all",
+          "projects": "dependencies"
+        },
+        {
+          "target": "build",
+          "projects": "self"
+        }
+      ]
+    },
+    "focus": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["nx g @nativescript/plugin-tools:focus-packages wcg-text-encoding"],
+        "parallel": false
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["packages/wcg-text-encoding/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}
